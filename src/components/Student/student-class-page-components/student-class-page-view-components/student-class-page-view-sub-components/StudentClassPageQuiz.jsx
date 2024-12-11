@@ -36,8 +36,8 @@ function StudentClassPageQuiz({ searchQuery }) {
   };
 
   return (
-    <div className="flex min-h-screen bg-primary-1 text-text-1 font-lexend">  {/* Adjust margins for header and menu */}
-      <div className="flex-1 p-4 md:p-6">
+    <div className="flex min-h-screen bg-primary-1 text-text-1 font-lexend">  
+      <div className="flex-1 p-4 md:p-6 ml-40"> {/* Adjust margins for header and menu */}
         {/* Quiz Containers */}
         <div className="flex flex-wrap mt-4 gap-6">
           {filteredQuizData.length === 0 ? (
