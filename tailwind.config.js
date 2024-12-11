@@ -6,6 +6,9 @@ export default {
       ],
     theme: {
         extend: {
+          fontFamily: {
+            lexend: ['Lexend', 'sans-serif']
+          },
             colors: {
                 primary: {
                   1: 'var(--primary-1)',
@@ -32,4 +35,3 @@ export default {
     },
     plugins: [],
 }
-
