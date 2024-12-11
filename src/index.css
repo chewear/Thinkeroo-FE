@@ -17,3 +17,8 @@
     --positive: #3CB24A;
     --negative: #F93F3F;
 }
+
+input[type="time"]::-webkit-calendar-picker-indicator,
+input[type="date"]::-webkit-calendar-picker-indicator{
+    filter: invert(100%);
+}
