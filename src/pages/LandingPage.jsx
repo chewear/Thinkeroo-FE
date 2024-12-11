@@ -64,7 +64,7 @@ const LandingPage = () => {
 
 
         {/* img */}
-        <div className=' ml-auto mt-2 mt-[6vw] sm:mt-[10px] max-w-full sm:max-w-m sm:max-h-[100px]'>
+        <div className=' ml-auto mt-[6vw] sm:mt-[10px] max-w-full sm:max-w-m sm:max-h-[100px]'>
           <img src='src\assets\logo.jpg' className='inline w-2xl max-h-[480px] object-cover mr-[80px] '></img>
         </div>
       </div>

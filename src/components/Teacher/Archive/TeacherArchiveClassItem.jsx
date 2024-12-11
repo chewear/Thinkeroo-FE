@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import TeacherArchivePopUp from './TeacherArchivePopUp'
 
 const TeacherArchiveClassItem = () => {
-    const [showPopUp, setShowPopUp] = useState(true);
+    const [showPopUp, setShowPopUp] = useState(false);
 
     return (
         <div className="cursor-pointer w-[259px] h-[323px] border-primary-3 border-solid border-2 rounded-[10px] overflow-hidden">
