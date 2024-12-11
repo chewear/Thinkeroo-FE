@@ -23,7 +23,7 @@ function StudentClassPageView() {
           <StudentSearchField onChange={handleSearchChange} />
         </div>
         {/* Tabs */}
-        <div className="flex border-b-2 border-primary-3 p-4 sticky top-16 bg-primary-1 z-40 text-lg font-medium font-lexend">
+        <div className="flex border-b-2 border-primary-3 p-4 sticky top-16 bg-primary-1 z-40 text-lg font-medium font-lexend ml-40"> {/*Adjust margin here for menu and header */}
           <button
             className={`px-4 py-2 ${activeTab === 'overview' ? 'text-secondary-1' : 'text-text-1'} hover:text-secondary-2`}
             onClick={() => handleTabChange('overview')}
