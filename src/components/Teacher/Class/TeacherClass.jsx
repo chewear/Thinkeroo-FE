@@ -14,7 +14,7 @@ const TeacherClass = () => {
             {!showOverview &&
                 <>
                     <TeacherClassHeader 
-                    setShowCreateClass={setShowCreateClass}
+                        setShowCreateClass={setShowCreateClass}
                     />
                     <TeacherClassList 
                         setSelectedClass={setSelectedClass}
@@ -23,7 +23,9 @@ const TeacherClass = () => {
                 </>
             }
             {showOverview &&
-                <ClassOverview/>
+                <ClassOverview 
+                    setShowOverview={setShowOverview}
+                />
             }
 
             {showCreateClass && 
