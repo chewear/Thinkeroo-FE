@@ -6,7 +6,7 @@ import TeacherClassOverviewRender from './TeacherClassOverviewRender'
 import TeacherClassQuizScores from '../Quiz/TeacherClassQuizScores'
 import TeacherClassOverviewDetailsEdit from './TeacherClassOverviewDetailsEdit'
 
-const TeacherClassOverview = () => {
+const TeacherClassOverview = ({ setShowOverview }) => {
     const [render, setRender] = useState('Overview');
     const [showQuizScore, setShowQuizScore] = useState(false);
     const [selectedQuiz, setSelectedQuiz] = useState();
@@ -25,6 +25,7 @@ const TeacherClassOverview = () => {
                     <TeacherClassOverviewHeader 
                         setRender={setRender}
                         render={render}
+                        setShowOverview={setShowOverview}
                     />
                     <TeacherClassOverviewRender 
                         render={render}
