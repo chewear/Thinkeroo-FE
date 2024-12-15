@@ -15,7 +15,7 @@ const TeacherSidebar = ({ teacherRender, setTeacherRender }) => {
                 <div className="w-full h-12 flex items-center justify-center gap-2 ">
                     <img className=" h-12 select-none pointer-events-none" src={logo} alt="" />
                     {expand && 
-                        <h1 className="text-2xl font-semibold text-text-1">Thinkerooo</h1>
+                        <h1 className="text-2xl font-semibold text-text-1">Thinkeroo</h1>
                     }
                 </div>
                 <div className="flex flex-col items-center justify-center gap-6 mt-24">
